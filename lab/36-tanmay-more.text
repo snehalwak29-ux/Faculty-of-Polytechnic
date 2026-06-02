@@ -1,1 +1,15 @@
+#problem 2
 
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+a = 4
+b = 9
+c = 19
+
+print("a", check_even_odd(a))
+print("b", check_even_odd(b))
+print("c", check_even_odd(c))
