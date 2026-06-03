@@ -43,3 +43,12 @@ def print_elements(lst):
 
 d = [1, 2, 3]
 print_elements(d)
+
+#problm 5
+l=[1,2,3,4,5,6]
+
+l.pop(0)
+l.pop(1)
+l.pop(3)
+
+print(l)
